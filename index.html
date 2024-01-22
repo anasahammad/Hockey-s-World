@@ -37,8 +37,121 @@
         }
       </style>
   </head>
-  <body>
-    <header></header>
+  <body class="bg-white font-manrope">
+    <!-- ---------Header Start----------- -->
+    <header class="w-[90vw] mx-auto ">
+        <!-- navbar Start -->
+        <div class="navbar ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li class="text-bold text-[#424247]"><a>Home</a></li>
+                  <li class="text-bold text-[#424247]">
+                    <a>About</a>
+                    
+                  </li>
+                  <li class="text-bold text-[#424247]"><a>Pages</a></li>
+                  <li class="text-bold text-[#424247]"><a>Blog</a></li>
+                  <li class="text-bold text-[#424247]"><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class=" text-xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-bold text-[#FF4240]"><a>Home</a></li>
+                <li class="text-bold text-[#424247]">
+                    <a href="">About</a>
+                  
+                 
+                </li>
+                <li class="text-bold text-[#424247]"><a>Pages</a></li>
+                <li class="text-bold text-[#424247]"><a>Blog</a></li>
+                <li class="text-bold text-[#424247]"><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn btn-error text-white">Get Ticket</a>
+            </div>
+          </div>
+
+
+
+        <!-- navbar End -->
+
+        <!-- Banner section Start -->
+
+        <section class="w-[90vw] mx-auto">
+            
+    
+            <div class="carousel w-full  py-10">
+              <!-- Slide 1 -->
+              <div
+                id="slide1"
+                class="carousel-item relative  w-full h-[200px] lg:h-[550px] bg-center bg-cover rounded-2xl"
+                style="background-image: url('./Images/1.png')"
+              >
+               
+                <div
+                  class="absolute flex  justify-center items-center lg:justify-start transform -translate-y-1/2 left-5 right-0 bottom-0"
+                >
+                  <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❮</a>
+                  <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div  id="slide2"
+              class="carousel-item relative  w-full h-[200px] lg:h-[550px] bg-center bg-cover rounded-2xl"
+              style="background-image: url('./Images/2.png')">
+                
+                />
+                <div
+                class="absolute flex  justify-center items-center lg:justify-start transform -translate-y-1/2 left-5 right-0 bottom-0"
+                >
+                  <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❮</a>
+                  <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                </div>
+              </div>
+              <!-- Slide 3 -->
+              <div id="slide3"
+              class="carousel-item relative  w-full h-[200px] lg:h-[550px] bg-center bg-cover rounded-2xl"
+              style="background-image: url('./Images/3.png')">
+               
+                />
+                <div
+                class="absolute flex  justify-center items-center lg:justify-start transform -translate-y-1/2 left-5 right-0 bottom-0"
+                >
+                  <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❮</a>
+                  <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                </div>
+              </div>
+              <!-- Slide 4 -->
+              <div id="slide4"
+              class="carousel-item relative  w-full h-[200px] lg:h-[550px] bg-center bg-cover rounded-2xl"
+              style="background-image: url('./Images/2.png')">
+               
+                />
+                <div
+                class="absolute flex  justify-center items-center lg:justify-start transform -translate-y-1/2 left-5 right-0 bottom-0"
+                >
+                  <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-none">❮</a>
+                  <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- meet all the hero box -->
+            <div class="bg-[#131318] rounded-2xl  p-8 md:p-4 lg:w-2/5 lg:-translate-y-56 lg:translate-x-[140%]">
+                <h3 class="text-2xl text-white font-extrabold mb-3">Meet all the heroes from the field</h3>
+                <p class="text-[#ffffff99] font-medium">Explore the extraordinary tales and achievments of divers heroes  as we introduce you to the inspiring individuals.</p>
+            </div>
+          </section>
+        <!-- Banner section End -->
+    </header>
+    <!-- ---------Header End----------- -->
     <main></main>
     <footer></footer>
   </body>
